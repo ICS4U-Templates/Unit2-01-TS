@@ -13,7 +13,7 @@ export class Bicycle {
   speed: number
 
   // and 1 method
-  applyBrake(decrement: number): null {
+  applyBrake(decrement: number): void {
     this.speed -= decrement
   }
 }
