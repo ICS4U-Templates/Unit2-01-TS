@@ -5,12 +5,11 @@
  * version 1.0
  * since   2020-01-01
  */
-import MyBicycle from './Bicycle.ts'
+import {Bicycle} from './Bicycle.ts'
 
 // use Bicycle class
-const someBicycle1 = new MyBicycle()
-const someBicycle2 = new MyBicycle()
-someBicycle1.
+const someBicycle1 = new Bicycle()
+const someBicycle2 = new Bicycle()
 
 console.log('\nSet speed to 10 on bike 1.')
 someBicycle1.speed = 10
